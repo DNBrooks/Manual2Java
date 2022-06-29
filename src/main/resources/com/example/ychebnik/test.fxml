@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="477.0" prefWidth="899.0" style="-fx-background-color: #5290E0;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ychebnik.TestController">
+    <children>
+        <AnchorPane layoutX="-1.0" layoutY="96.0" prefHeight="380.0" prefWidth="899.0" style="-fx-background-color: white;">
+            <children>
+                <Button fx:id="next_id" layoutX="386.0" layoutY="306.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="116.0" text="Далее">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+                <Text fx:id="question_text" layoutX="8.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Какой основной признак наружного кровотечения?" wrappingWidth="593.13671875">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Text>
+                <Button fx:id="stop_id" layoutX="109.0" layoutY="306.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="116.0" text="Завершить">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+                <RadioButton fx:id="radio1" layoutX="15.0" layoutY="100.0" mnemonicParsing="false" text="медленное и тягучее кровотечение">
+                    <toggleGroup>
+                        <ToggleGroup fx:id="answers" />
+                    </toggleGroup>
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </RadioButton>
+                <RadioButton fx:id="radio2" layoutX="15.0" layoutY="140.0" mnemonicParsing="false" text="быстрое и пульсирующие кровотечение" toggleGroup="$answers">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </RadioButton>
+                <RadioButton fx:id="radio3" layoutX="15.0" layoutY="180.0" mnemonicParsing="false" text="кровь темно-красного цвета" toggleGroup="$answers">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </RadioButton>
+                <RadioButton fx:id="radio4" layoutX="15.0" layoutY="220.0" mnemonicParsing="false" text="кровь ярко-красного цвета" toggleGroup="$answers">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </RadioButton>
+            </children>
+        </AnchorPane>
+        <Text fill="WHITE" layoutX="5.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Электронное учебное пособие по дисциплине &quot;ОБЖ&quot; на тему: &quot;Основы медицинских знаний&quot;" textAlignment="CENTER" wrappingWidth="888.708984375">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>

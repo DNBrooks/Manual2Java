@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="777.0" prefWidth="1004.0" style="-fx-background-color: #5290E0;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ychebnik.HelloController">
+    <children>
+        <AnchorPane layoutY="91.0" prefHeight="686.0" prefWidth="1004.0" style="-fx-background-color: white;">
+            <children>
+                <ScrollPane fx:id="scroll_id" fitToWidth="true" layoutX="419.0" layoutY="9.0" prefHeight="658.0" prefWidth="571.0">
+                    <content>
+                        <TextArea fx:id="id_pane" editable="false" prefHeight="656.0" prefWidth="569.0" wrapText="true">
+                            <font>
+                                <Font size="16.0" />
+                            </font>
+                  </TextArea>
+                    </content>
+                </ScrollPane>
+                <Button fx:id="liter_id" layoutX="239.0" layoutY="422.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="161.0" text="Справка">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+                <Button fx:id="test_id" layoutX="32.0" layoutY="422.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="161.0" text="Тестирование">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+                <Button fx:id="razd1" layoutX="32.0" layoutY="100.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="369.0" text="Общие правила оказания медецинской помощи">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+                <Text layoutX="125.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выберите раздел">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Text>
+                <Button fx:id="razd2" layoutX="32.0" layoutY="140.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="369.0" text="Первая помощь при кровотечениях">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+                <Button fx:id="razd3" layoutX="32.0" layoutY="180.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="369.0" text="Первая помощь при ожогах">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+                <Button fx:id="razd4" layoutX="32.0" layoutY="220.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="369.0" text="Первая помощь при отравлениях">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+                <Button fx:id="razd5" layoutX="32.0" layoutY="260.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="369.0" text="Первая помощь при тепловом ударе">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+            <Button fx:id="razd6" layoutX="32.0" layoutY="300.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="369.0" text="Первая помощь при обморожении">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            </children>
+        </AnchorPane>
+        <Text fill="WHITE" layoutX="10.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Электронное учебное пособие по дисциплине &quot;ОБЖ&quot; на тему: &quot;Основы медицинских знаний&quot;" textAlignment="CENTER" wrappingWidth="983.708984375">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>
